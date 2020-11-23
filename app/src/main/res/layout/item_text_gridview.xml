@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/_10dp"
+    android:paddingEnd="@dimen/_10dp">
+
+    <TextView
+        android:id="@+id/tv_title_time"
+        android:layout_width="@dimen/_80dp"
+        android:layout_height="@dimen/_45dp"
+        android:text="要求时限"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="@dimen/_1dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sp" />
+
+    <com.honpe.lxx.app.widget.BaseNoLineGridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10dp"
+        android:layout_marginEnd="@dimen/_10dp"
+        android:numColumns="2"
+        android:listSelector="@android:color/transparent"
+        android:gravity="center_horizontal"
+        android:scrollbars="none"/>
+
+</LinearLayout>

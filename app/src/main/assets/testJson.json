@@ -1,0 +1,182 @@
+{
+  "Status": 0,
+  "Msg": "成功!",
+  "Data": [
+    {
+      "MealDate": "2020-08-12",
+      "MealTimes": "早餐",
+      "DishesDetails": [
+        {
+          "Dishes": "绿豆粥",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "黑米粥 ",
+          "IsSelected": 1
+        },
+        {
+          "Dishes": "腊八粥",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "梅菜包",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "面包",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "凉拌面 ",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "烧卖",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "刀削面",
+          "IsSelected": 0
+        }
+      ]
+    },
+    {
+      "MealDate": "2020-08-12",
+      "MealTimes": "午餐",
+      "DishesDetails": [
+        {
+          "Dishes": "香煎鸡扒",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "蚂蚁上树",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "圆椒炒肉",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "油麦菜",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "乌鸡准山汤",
+          "IsSelected": 1
+        },
+        {
+          "Dishes": "辣子鸡",
+          "IsSelected": 1
+        },
+        {
+          "Dishes": "西兰花炒肉",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "豆皮炒肉",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "薯叶",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "海带结骨头汤",
+          "IsSelected": 0
+        }
+      ]
+    },
+    {
+      "MealDate": "2020-08-12",
+      "MealTimes": "晚餐",
+      "DishesDetails": [
+        {
+          "Dishes": "红烧带鱼",
+          "IsSelected": 1
+        },
+        {
+          "Dishes": "粉丝肉沫",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "地瓜炒肉",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "通菜",
+          "IsSelected": 1
+        },
+        {
+          "Dishes": "萝卜肉片汤",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "萝卜炖牛腩",
+          "IsSelected": 1
+        },
+        {
+          "Dishes": "青瓜炒肉",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "莲藕炒肉",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "生菜",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "黄花蛋汤",
+          "IsSelected": 0
+        }
+      ]
+    },
+    {
+      "MealDate": "2020-08-12",
+      "MealTimes": "夜宵",
+      "DishesDetails": [
+        {
+          "Dishes": "红烧带鱼",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "粉丝肉沫",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "地瓜炒肉",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "通菜",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "萝卜肉片汤",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "萝卜炖牛腩",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "青瓜炒肉",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "莲藕炒肉",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "生菜",
+          "IsSelected": 0
+        },
+        {
+          "Dishes": "黄花蛋汤",
+          "IsSelected": 0
+        }
+      ]
+    }
+  ]
+}

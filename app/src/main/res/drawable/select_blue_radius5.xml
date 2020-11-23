@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="@drawable/shape_gray_radius5" android:state_checked="true" />
+<item android:drawable="@drawable/shape_gray_radius5" android:state_pressed="true" />
+<item android:drawable="@drawable/shape_gray_radius5" android:state_selected="true" />
+<item android:drawable="@drawable/shape_blue_radius5_pl5t2"/>
+</selector>

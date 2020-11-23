@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/re_head"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="@dimen/_22dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_10dp"
+        android:textSize="@dimen/_14sp" />
+
+    <TextView
+        android:id="@+id/id_card_no"
+        android:layout_width="@dimen/_50dp"
+        android:layout_height="@dimen/_50dp"
+        android:textSize="@dimen/_12sp"
+        android:layout_toEndOf="@+id/tv_id"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/_5dp"
+        android:textColor="@color/white"
+        android:background="@drawable/shape_circle_logistics_green"
+        tools:text="序号"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/id_card_no"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sp"
+            tools:text="小梅花"/>
+
+        <TextView
+            android:id="@+id/tv_user_depart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_10sp"
+            android:layout_marginTop="@dimen/_5dp"
+            android:textColor="@color/grey_dark"
+            tools:text="小梅花"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_right_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_8dp"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/tv_str_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="@dimen/_15dp"
+            android:layout_height="@dimen/_15dp"
+            android:layout_marginStart="@dimen/_10dp"
+            android:src="@mipmap/ic_right_grey"/>
+
+    </LinearLayout>
+
+
+    <include layout="@layout/item_text_select_date"
+        android:id="@+id/ll_select_date"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

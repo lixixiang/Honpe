@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_title_edit"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_45dp"
+    android:layout_marginTop="@dimen/_1dp"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/_10dp"
+    android:paddingEnd="@dimen/_10dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="@dimen/_80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5dp"
+        android:text="开始时间"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:drawablePadding="@dimen/_20dp"
+            android:layout_marginEnd="@dimen/_20dp"
+            android:gravity="center_vertical"
+            android:hint="请选择"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@drawable/shape_black"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_delete_start"
+            android:layout_width="@dimen/_15dp"
+            android:layout_height="@dimen/_15dp"
+            android:layout_gravity="end|center_vertical"
+            android:src="@mipmap/cha" />
+    </FrameLayout>
+
+
+</LinearLayout>

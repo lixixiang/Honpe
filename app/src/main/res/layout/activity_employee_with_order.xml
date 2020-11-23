@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.honpe.lxx.app.widget.NavigationTabStrip
+            android:id="@+id/nts_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40dp"
+            android:layout_marginStart="@dimen/_30dp"
+            android:layout_marginEnd="@dimen/_30dp"
+            app:nts_active_color="@color/blue_dark"
+            app:nts_color="@color/blue_dark"
+            app:nts_corners_radius="@dimen/_1dp"
+            app:nts_inactive_color="@color/grey_dark"
+            app:nts_size="@dimen/_14sp"
+            app:nts_weight="@dimen/_3dp"
+            app:nts_titles="@array/employees_to_eat"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1dp"
+            android:background="@color/line_color"
+            android:layout_gravity="bottom"/>
+    </FrameLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10dp"/>
+
+</LinearLayout>

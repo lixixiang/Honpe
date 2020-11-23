@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_48dp"
+    android:paddingStart="@dimen/_20dp"
+    android:paddingEnd="@dimen/_20dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+   <ImageView
+       android:id="@+id/ic_left"
+       android:layout_width="@dimen/_20dp"
+       android:layout_height="@dimen/_20dp"
+       android:src="@mipmap/ic_left_white"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2020.07.06"
+        android:textColor="@color/blue_dark"
+        android:layout_marginStart="@dimen/_20dp"
+        android:layout_marginEnd="@dimen/_20dp"
+        android:textSize="@dimen/_16sp"/>
+
+    <ImageView
+        android:id="@+id/ic_right"
+        android:layout_width="@dimen/_20dp"
+        android:layout_height="@dimen/_20dp"
+        android:src="@mipmap/ic_right_grey"/>
+
+</LinearLayout>

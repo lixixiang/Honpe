@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_e"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <include layout="@layout/item_text_radio"/>
+
+            <include layout="@layout/item_text_gridview"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35dp"
+                android:layout_marginStart="@dimen/_10dp"
+                android:gravity="bottom"
+                android:background="@color/background_e"
+                android:text="安装/维修任务">
+
+            </TextView>
+
+            <com.honpe.lxx.app.widget.BaseRecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

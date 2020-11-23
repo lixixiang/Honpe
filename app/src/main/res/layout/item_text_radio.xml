@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_45dp"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_marginBottom="@dimen/_1dp">
+
+    <TextView
+        android:id="@+id/tv_title_side"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="安装/维修"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:paddingEnd="@dimen/_8dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16sp" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="内部"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="外部"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_14sp" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

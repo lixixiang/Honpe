@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_arrows"><![CDATA[-------->]]></string>
+    <string name="progress">%d/100</string>
+    <string name="more">更多</string>
+</resources>

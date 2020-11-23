@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_55dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/_10dp"
+    android:paddingEnd="@dimen/_10dp">
+
+
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:id="@+id/iv_title"
+          android:layout_width="@dimen/_40dp"
+          android:layout_height="@dimen/_40dp"
+          android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试"
+        android:layout_marginStart="@dimen/_10dp"
+        android:layout_toEndOf="@+id/iv_title"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/_14sp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true">
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="13:56"
+            android:textSize="@dimen/_12sp" />
+
+        <ImageView
+            android:id="@+id/iv_director"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/_10dp"
+            android:src="@mipmap/ic_right_grey" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+

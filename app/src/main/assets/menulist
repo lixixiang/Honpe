@@ -1,0 +1,138 @@
+[
+  {
+    "ico": "more7",
+    "id": "0c4ad7d6-cb7b-4a27-9adb-fbb82dbfe67f",
+    "sort": "11",
+    "num": "3",
+    "title": "住宿查询",
+    "isEnable": true
+  },
+  {
+    "ico": "more5",
+    "id": "3d8b4e65-09b9-4731-ba97-6b3b1e317290",
+    "sort": "12",
+    "num": "2",
+    "title": "考勤管理",
+    "isEnable": true
+  },
+  {
+    "ico": "ic_oa8",
+    "id": "3d8b4e65-09b9-4731-ba97-6b3b1e317290",
+    "sort": "13",
+    "num": "2",
+    "title": "审批查询",
+    "isEnable": true
+  },
+  {
+    "ico": "ic_oa1",
+    "id": "a4f08830-adaa-4412-9adf-55b9e773118e",
+    "sort": "16",
+    "num": "5",
+    "title": "考勤",
+    "isEnable": true
+  },
+  {
+    "ico": "ic_oa2",
+    "id": "a4f08830-adaa-4412-9adf-55b9e773118e",
+    "sort": "17",
+    "num": "5",
+    "title": "请假",
+    "isEnable": true
+  },
+  {
+    "ico": "ic_oa3",
+    "id": "a4f08830-adaa-4412-9adf-55b9e773118e",
+    "sort": "18",
+    "num": "5",
+    "title": "出差",
+    "isEnable": true
+  },
+  {
+    "ico": "ic_oa4",
+    "id": "a4f08830-adaa-4412-9adf-55b9e773118e",
+    "sort": "19",
+    "num": "5",
+    "title": "外出",
+    "isEnable": true
+  },
+  {
+    "ico": "ic_oa5",
+    "id": "a4f08830-adaa-4412-9adf-55b9e773118e",
+    "sort": "20",
+    "num": "5",
+    "title": "加班",
+    "isEnable": true
+  },
+  {
+    "ico": "ic_oa6",
+    "id": "a4f08830-adaa-4412-9adf-55b9e773118e",
+    "sort": "21",
+    "num": "5",
+    "title": "补卡",
+    "isEnable": true
+  },
+  {
+    "ico": "ic_oa7",
+    "id": "a4f08830-adaa-4412-9adf-55b9e773118e",
+    "sort": "22",
+    "num": "5",
+    "title": "审批",
+    "isEnable": true
+  },
+  {
+    "ico": "ic_xz1",
+    "id": "a4f08830-adaa-4412-9adf-55b9e773118e",
+    "sort": "23",
+    "num": "5",
+    "title": "派车",
+    "isEnable": true
+  },
+  {
+    "ico": "ic_xz2",
+    "id": "a4f08830-adaa-4412-9adf-55b9e773118e",
+    "sort": "24",
+    "num": "5",
+    "title": "维修",
+    "isEnable": true
+  },
+  {
+    "ico": "ic_xz6",
+    "id": "a4f08830-adaa-4412-9adf-55b9e773118e",
+    "sort": "25",
+    "num": "5",
+    "title": "报餐统计",
+    "isEnable": true
+  },
+  {
+    "ico": "ic_xz7",
+    "id": "a4f08830-adaa-4412-9adf-55b9e773118e",
+    "sort": "25",
+    "num": "5",
+    "title": "车辆管理",
+    "isEnable": true
+  },
+  {
+    "ico": "ic_xz4",
+    "id": "a4f08830-adaa-4412-9adf-55b9e773118e",
+    "sort": "27",
+    "num": "5",
+    "title": "客户订餐",
+    "isEnable": true
+  },
+  {
+    "ico": "ic_xz5",
+    "id": "a4f08830-adaa-4412-9adf-55b9e773118e",
+    "sort": "28",
+    "num": "5",
+    "title": "员工报餐",
+    "isEnable": true
+  },
+  {
+    "ico": "ic_cg2",
+    "id": "a4f08830-adaa-4412-9adf-55b9e773118e",
+    "sort": "29",
+    "num": "5",
+    "title": "委外加工",
+    "isEnable": true
+  }
+]

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:id="@+id/fl_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/background_e" />
+
+        <com.honpe.lxx.app.widget.NavigationTabStrip
+            android:id="@+id/nts_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_80dp"
+            android:layout_marginEnd="@dimen/_80dp"
+            app:nts_active_color="@color/blue_dark"
+            app:nts_color="@color/blue_dark"
+            app:nts_corners_radius="2.5dp"
+            app:nts_factor="2.8"
+            app:nts_inactive_color="@color/grey_aeaeae"
+            app:nts_titles="@array/more_check_in_title"
+            app:nts_weight="3dp" />
+    </FrameLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

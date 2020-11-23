@@ -1,0 +1,3 @@
+include ':navigationtabstrip'
+include ':app', ':zbarlibary'
+include ':mcalendar'

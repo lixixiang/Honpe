@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/selector_white_grey"
+    android:layout_marginBottom="@dimen/_1dp"
+    android:paddingStart="@dimen/_55dp"
+    android:paddingEnd="@dimen/_10dp"
+    android:padding="@dimen/_10dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="@dimen/_16dp"
+        android:layout_height="@dimen/_16dp"
+        android:src="@mipmap/ic_team"/>
+
+    <TextView
+        android:id="@+id/tv_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_14sp"
+        android:textColor="@color/grey"
+        android:layout_marginStart="@dimen/_8dp"
+        tools:text="测试"/>
+
+</LinearLayout>
+
